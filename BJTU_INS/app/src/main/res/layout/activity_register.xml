@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sign_back_png"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash1">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ic_arrow_left" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="请输入昵称"
+        android:layout_above="@+id/account_input"
+        android:layout_marginBottom="20dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/edittext_bg"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/account_input"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="请输入邮箱"
+        android:layout_above="@+id/password_input"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittext_bg"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/password_confirm_input"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"
+        android:layout_below="@id/password_input"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="注册"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/password_confirm_input"
+        android:layout_centerHorizontal="true"
+        android:background="#D3D3D3" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BJTU_INS</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_add">发布动态</string>
+    <string name="title_message">消息</string>
+    <string name="title_my">我的页面</string>
+    <string name="title_search">搜索</string>
+    <string name="email_hint">请输入邮箱</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="error_password_format">您输入的邮箱格式不正确</string>
+    <string name="error_password_length">密码长度不正确</string>
+    <string name="error_email_password">邮箱或密码错误</string>
+    <string name="search_course">请输入你要查询的资料</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:leon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="54dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="16dp"
+                android:background="#fff"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/head"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@mipmap/ic_launcher"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#94CACACA"/>
+
+            </LinearLayout>
+
+
+            <com.leon.lib.settingview.LSettingItem
+                android:id="@+id/item_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                leon:leftIcon="@mipmap/id"
+                leon:leftText="id:"
+                leon:rightStyle="iconHide"/>
+
+            <com.leon.lib.settingview.LSettingItem
+                android:id="@+id/item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                leon:leftIcon="@mipmap/name"
+                leon:leftText="姓名:"
+                />
+
+            <com.leon.lib.settingview.LSettingItem
+                android:id="@+id/item_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                leon:leftIcon="@mipmap/birthday"
+                leon:leftText="生日:"
+                />
+
+            <com.leon.lib.settingview.LSettingItem
+                android:id="@+id/item_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                leon:leftIcon="@mipmap/sex"
+                leon:leftText="性别:"
+                />
+
+            <com.leon.lib.settingview.LSettingItem
+                android:id="@+id/item_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                leon:leftIcon="@mipmap/description"
+                leon:leftText="描述:" />
+
+            <com.leon.lib.settingview.LSettingItem
+                android:id="@+id/item_friend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                leon:leftIcon="@drawable/ic_friend"
+                leon:leftText="我的好友" />
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingTop="8dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="8dp"
+                android:text="注销"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/icon_home"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@mipmap/icon_search"
+        android:title="" />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@mipmap/icon_add"
+        android:title="" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_message"-->
+<!--        android:icon="@mipmap/icon_message"-->
+<!--        android:title="" />-->
+
+    <item
+        android:id="@+id/navigation_my"
+        android:icon="@mipmap/icon_my"
+        android:title="" />
+
+</menu>
